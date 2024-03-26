@@ -1,0 +1,48 @@
+.blind{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    margin: -1px;
+}
+.notice-area .nt-link::after,
+.mobile-link::before,
+.mobile-link::after,
+.clip-area .title .title-ic,
+.eng-search::before,
+.papago-area::before,
+.papago-area .title::before,
+.chart-list .chart-item .more::after,
+.chart-list .chart-count::before,
+.stock-left .chart-state::before,
+.stock-time .btn-reset::before,
+.stock-header .btn-more::before,
+.weather-header .btn-link::before,
+.sc-news .group-control .set-area .btn-list::before,
+.sc-news .group-control .set-area .btn-thumb::before,
+.sc-news .group-control .control-area [class*="btn-"]::before,
+.sc-news .group-issue .issue-area .btn-all:after,
+.sc-login .link-login::before,
+.header .util-area [class*="btn-"]::after,
+.gnb .nav-item [class*="ic-"]::after,
+.gnb .nav-item [class*="ic-"]::before,
+.header .group-search form [class*="btn-"]::before{
+    background-image: url(../images/sp-bg.png);
+    background-size: 434px;
+    background-repeat: no-repeat;
+}
+
+.sc-shop .shop-control [class*="btn-"]::before,
+.sc-shop .quickmenu-list [class*="ic-"]::before{
+    background-image: url(../images/sp-bg2.png);
+    background-size: 134px;
+    background-repeat: no-repeat;
+}
+
+.weather-pic .weather-state::before,
+.day-wrap .day-pic{
+    background-image: url(../images/sp-bg3.png);
+    background-size: 641px;
+    background-repeat: no-repeat;
+}
